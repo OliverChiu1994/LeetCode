@@ -4,9 +4,9 @@ project(algorithm)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(algorithm main.cpp
-        leetcode2278.h
-        leetcode695.h
-        leetcode39.h
+        algorithm/leetcode2278.h
+        algorithm/leetcode695.h
+        algorithm/leetcode39.h
         util.h
-        leetcode40.h
-        leetcode45.h)
+        algorithm/leetcode40.h
+        algorithm/leetcode45.h)

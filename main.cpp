@@ -1,11 +1,10 @@
-#include "leetcode39.h"
-#include "leetcode40.h"
-#include "leetcode695.h"
-#include "leetcode2278.h"
+#include "algorithm/leetcode39.h"
+#include "algorithm/leetcode40.h"
+#include "algorithm/leetcode45.h"
+#include "algorithm/leetcode695.h"
+#include "algorithm/leetcode2278.h"
 
 #include <iostream>
-
-#include "leetcode45.h"
 
 using namespace std;
 

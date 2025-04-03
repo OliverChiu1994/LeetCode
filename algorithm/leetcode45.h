@@ -6,7 +6,7 @@
 #define LEETCODE45_H
 
 #include <vector>
-#include "util.h"
+#include "../util.h"
 
 namespace LeetCode45 {
     class Solution {
