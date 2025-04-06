@@ -9,4 +9,5 @@ add_executable(algorithm main.cpp
         algorithm/leetcode39.h
         util.h
         algorithm/leetcode40.h
-        algorithm/leetcode45.h)
+        algorithm/leetcode45.h
+        algorithm/leetcode55.h)
