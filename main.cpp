@@ -1,3 +1,5 @@
+#include "algorithm/leetcode15.h"
+#include "algorithm/leetcode18.h"
 #include "algorithm/leetcode26.h"
 #include "algorithm/leetcode27.h"
 #include "algorithm/leetcode39.h"
@@ -6,6 +8,8 @@
 #include "algorithm/leetcode46.h"
 #include "algorithm/leetcode47.h"
 #include "algorithm/leetcode55.h"
+#include "algorithm/leetcode80.h"
+#include "algorithm/leetcode167.h"
 #include "algorithm/leetcode283.h"
 #include "algorithm/leetcode695.h"
 #include "algorithm/leetcode2278.h"
@@ -15,9 +19,6 @@
 using namespace std;
 
 int main() {
-    //cout << LeetCode2278::Solution::percentageLetter("vmvvvvvzrvvpvdvvvvyfvdvvvvpkvvbvvkvvfkvvvkvbvvnvvomvzvvvdvvvkvvvvvvvvvlvcvilaqvvhoevvlmvhvkvtgwfvvzy", 'v');
-    // LeetCode685::test();
-    // LeetCode40::test();
-    LeetCode283::test();
+    LeetCode80::test();
     return 0;
 }
