@@ -19,6 +19,12 @@
 
 using namespace std;
 
+struct ListNode {
+     int val;
+     ListNode *next;
+     explicit ListNode(const int x) : val(x), next(nullptr) {}
+};
+
 // 基础版本 - 仅匹配没有begin()/end()的类型
 template<typename T>
 auto print(const T& value) -> std::void_t<decltype(std::cout << value)> {
@@ -109,6 +115,28 @@ void print(const std::unordered_map<Key, Value, Hash, KeyEqual, Allocator>& map)
         first = false;
     }
     std::cout << "}";
+}
+
+void print(ListNode* node) {
+    std::cout << "[";
+    while (node) {
+        std::cout << node->val;
+        if (node->next != nullptr) {
+            std::cout << ", ";
+        }
+        node = node->next;
+    }
+    std::cout << "]";
+}
+
+ListNode* buildList(const vector<int>& nums) {
+    ListNode* dummy = new ListNode(0);
+    ListNode* head = dummy;
+    for (int num : nums) {
+        head->next = new ListNode(num);
+        head = head->next;
+    }
+    return dummy->next;
 }
 
 #endif //UTIL_H
