@@ -31,6 +31,10 @@ auto print(const T& value) -> std::void_t<decltype(std::cout << value)> {
     std::cout << value;
 }
 
+void print(string s) {
+    std::cout << s ;
+}
+
 // 字符特化版本
 void print(char c) {
     std::cout << "'" << c << "'";
