@@ -17,6 +17,9 @@
 #include "algorithm/leetcode438.h"
 #include "algorithm/leetcode567.h"
 #include "algorithm/leetcode695.h"
+#include "algorithm/leetcode704.h"
+#include "algorithm/leetcode875.h"
+#include "algorithm/leetcode1011.h"
 #include "algorithm/leetcode2278.h"
 
 #include <iostream>
@@ -24,6 +27,6 @@
 using namespace std;
 
 int main() {
-    LeetCode3::test();
+    LeetCode1011::test();
     return 0;
 }
