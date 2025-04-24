@@ -123,7 +123,13 @@
 				25,
 				26,
 				27,
-				28
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34
 			]
 		}
 	],
@@ -273,6 +279,36 @@
 		{
 			"backtrace" : 1,
 			"path" : "algorithm/leetcode1011.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "algorithm/leetcode410.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "algorithm/leetcode104.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "algorithm/leetcode257.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "algorithm/leetcode129.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "algorithm/leetcode199.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "algorithm/leetcode988.h",
 			"sourceGroupIndex" : 1
 		}
 	],

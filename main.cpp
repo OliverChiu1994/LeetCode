@@ -11,14 +11,18 @@
 #include "algorithm/leetcode55.h"
 #include "algorithm/leetcode76.h"
 #include "algorithm/leetcode80.h"
+#include "algorithm/leetcode129.h"
 #include "algorithm/leetcode167.h"
+#include "algorithm/leetcode199.h"
 #include "algorithm/leetcode283.h"
 #include "algorithm/leetcode344.h"
+#include "algorithm/leetcode410.h"
 #include "algorithm/leetcode438.h"
 #include "algorithm/leetcode567.h"
 #include "algorithm/leetcode695.h"
 #include "algorithm/leetcode704.h"
 #include "algorithm/leetcode875.h"
+#include "algorithm/leetcode988.h"
 #include "algorithm/leetcode1011.h"
 #include "algorithm/leetcode2278.h"
 
@@ -27,6 +31,6 @@
 using namespace std;
 
 int main() {
-    LeetCode1011::test();
+    LeetCode988::test();
     return 0;
 }

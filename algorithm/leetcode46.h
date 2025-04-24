@@ -60,14 +60,88 @@ namespace LeetCode46 {
         }
     };
 
+    // 遍历实现
+    class Solution2 {
+    private:
+        vector<vector<int>> res;
+        vector<int> cur;
+        vector<bool> visited;
+        int n;
+    public:
+        vector<vector<int>> permute(vector<int>& nums) {
+            n = nums.size();
+            visited.resize(n, false);
+
+            traverse(nums);
+            return res;
+        }
+
+        void traverse(vector<int>& nums) {
+            if (cur.size() == n) {
+                res.push_back(vector<int>(cur.begin(), cur.end()));
+                return;
+            }
+            for (int i = 0; i < n; i++) {
+                if (visited[i]) {
+                    continue;
+                }
+                visited[i] = true;
+                cur.push_back(nums[i]);
+
+                traverse(nums);
+
+                visited[i] = false;
+                cur.pop_back();
+            }
+        }
+    };
+
+    // 递归实现
+    class Solution3 {
+    public:
+        vector<vector<int>> process(vector<int>& nums, int start) {
+            vector<vector<int>> res;
+            if (start == nums.size() - 1) {
+                res.emplace_back(1, nums[start]);
+                return res;
+            }
+            auto cur = process(nums, start + 1);
+            for (const auto& v : cur) {
+                vector<int> temp{nums[start]};
+                for (int num : v) {
+                    temp.push_back(num);
+                }
+                res.emplace_back(temp);
+            }
+            for (int i = start + 1; i < nums.size(); i++) {
+                swap(nums[i], nums[start]);
+                auto cur2 = process(nums, start + 1);
+                for (const auto& v : cur2) {
+                    vector<int> temp{nums[start]};
+                    for (int num : v) {
+                        temp.push_back(num);
+                    }
+                    res.emplace_back(temp);
+                }
+                swap(nums[i], nums[start]);
+            }
+            return res;
+        }
+        vector<vector<int>> permute(vector<int>& nums) {
+            return process(nums, 0);
+        }
+    };
+
     void test() {
-        Solution s;
+        Solution3 s;
         vector<int> nums{1, 2, 3};
-        vector<vector<int>> cur1 = s.permute(nums);
-        print(cur1);
-        cout << endl;
-        vector<vector<int>> cur2 = s.permute2(nums);
-        print(cur2);
+        // vector<vector<int>> cur1 = s.permute(nums);
+        // print(cur1);
+        // cout << endl;
+        // vector<vector<int>> cur2 = s.permute2(nums);
+        // print(cur2);
+
+        print(s.permute(nums));
     }
 }
 
