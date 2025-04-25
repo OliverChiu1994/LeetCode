@@ -25,12 +25,17 @@
 #include "algorithm/leetcode988.h"
 #include "algorithm/leetcode1011.h"
 #include "algorithm/leetcode2278.h"
+#include "algorithm/leetcode2799.h"
 
 #include <iostream>
 
 using namespace std;
 
 int main() {
+<<<<<<< HEAD
     LeetCode988::test();
+=======
+    LeetCode2799::test();
+>>>>>>> f63214d (每日一题)
     return 0;
 }
