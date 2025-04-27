@@ -25,6 +25,7 @@
 #include "algorithm/leetcode988.h"
 #include "algorithm/leetcode1011.h"
 #include "algorithm/leetcode2278.h"
+#include "algorithm/leetcode2799.h"
 
 #include <iostream>
 
