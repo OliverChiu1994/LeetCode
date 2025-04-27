@@ -19,11 +19,13 @@
 #include "algorithm/leetcode410.h"
 #include "algorithm/leetcode438.h"
 #include "algorithm/leetcode567.h"
+#include "algorithm/leetcode662.h"
 #include "algorithm/leetcode695.h"
 #include "algorithm/leetcode704.h"
 #include "algorithm/leetcode875.h"
 #include "algorithm/leetcode988.h"
 #include "algorithm/leetcode1011.h"
+#include "algorithm/leetcode1022.h"
 #include "algorithm/leetcode2278.h"
 #include "algorithm/leetcode2799.h"
 
@@ -32,6 +34,6 @@
 using namespace std;
 
 int main() {
-    LeetCode988::test();
+    LeetCode1022::test();
     return 0;
 }
