@@ -22,18 +22,22 @@
 #include "algorithm/leetcode662.h"
 #include "algorithm/leetcode695.h"
 #include "algorithm/leetcode704.h"
+#include "algorithm/leetcode743.h"
 #include "algorithm/leetcode875.h"
 #include "algorithm/leetcode988.h"
 #include "algorithm/leetcode1011.h"
 #include "algorithm/leetcode1022.h"
+#include "algorithm/leetcode2071.h"
 #include "algorithm/leetcode2278.h"
 #include "algorithm/leetcode2799.h"
+#include "algorithm/leetcode3341.h"
+#include "algorithm/leetcode3342.h"
 
 #include <iostream>
 
 using namespace std;
 
 int main() {
-    LeetCode1022::test();
+    LeetCode3342::test();
     return 0;
 }
