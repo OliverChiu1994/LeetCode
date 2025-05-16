@@ -45,4 +45,9 @@ add_executable(algorithm main.cpp
         algorithm/leetcode2071.h
         algorithm/leetcode3341.h
         algorithm/leetcode743.h
-        algorithm/leetcode3342.h)
+        algorithm/leetcode3342.h
+        algorithm/leetcode2918.h
+        algorithm/leetcode1550.h
+        algorithm/leetcode2094.h
+        algorithm/leetcode2900.h
+        algorithm/leetcode111.h)
