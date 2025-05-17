@@ -1,0 +1,8 @@
+//
+// Created by zhaogan on 2025/4/30.
+//
+
+#ifndef LEETCODE_LEETCODE1295_H
+#define LEETCODE_LEETCODE1295_H
+
+#endif //LEETCODE_LEETCODE1295_H

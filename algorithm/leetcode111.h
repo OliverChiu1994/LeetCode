@@ -56,7 +56,6 @@ namespace LeetCode111 {
             }
             traverse(root->left);
             traverse(root->right);
-
             depth--;
         }
     };

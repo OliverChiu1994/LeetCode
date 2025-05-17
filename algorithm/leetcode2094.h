@@ -1,11 +1,9 @@
 //
-// Created by Oliver on 2025/5/12.
+// Created by zhaogan on 2025/5/12.
 //
 
-#ifndef LEETCODE2094_H
-#define LEETCODE2094_H
-
-#include <algorithm>
+#ifndef LEETCODE_LEETCODE2094_H
+#define LEETCODE_LEETCODE2094_H
 
 #include "../util.h"
 
@@ -36,5 +34,4 @@ namespace LeetCode2094 {
         }
     };
 }
-
 #endif //LEETCODE2094_H
