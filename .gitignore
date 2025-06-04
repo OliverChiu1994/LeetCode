@@ -1,8 +1,6 @@
 cmake-build-debug/
 main.cpp
 main.exe
-# CLion 相关
-.idea/
 
 # CMake 其他生成目录
 build/

@@ -14,6 +14,8 @@
 #include <map>
 #include <unordered_map>
 #include <array>
+#include <sstream>
+#include <queue>
 #include <tuple>
 #include <utility> // for std::pair
 
