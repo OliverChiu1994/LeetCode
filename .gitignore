@@ -6,3 +6,4 @@ main.exe
 build/
 out/
 *.user
+.idea/
