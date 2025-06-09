@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.27)
+cmake_minimum_required(VERSION 3.30)
 project(algorithm)
 
 set(CMAKE_CXX_STANDARD 20)
@@ -59,8 +59,9 @@ add_executable(algorithm main.cpp
         algorithm/leetcode94.h
         algorithm/leetcode226.h
         algorithm/leetcode116.h
-        algorithm/leetcode100.h
-        algorithm/leetcode101.h
-        algorithm/leetcode951.h
-        algorithm/leetcode543.h
-        algorithm/leetcode124.h)
+        algorithm/leetcode297.h
+        algorithm/leetcode331.h
+        algorithm/leetcode894.h
+        algorithm/leetcode998.h
+        algorithm/leetcode1110.h
+        algorithm/leetcode100.h)
